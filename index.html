@@ -1,11 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spring Wealth Services</title>
+    <link rel="stylesheet" href="assets/css/output/output.css">
 </head>
+
 <body>
-    <h1>Spring Wealth Services</h1>
+    <header class="flex justify-between items-center shadow-md px-3 py-1">
+        <figure>
+            <img src="assets/images/logo.png" class="h-12 w-24" alt="Brand Logo">
+        </figure>
+        <ul class="hidden md:flex">
+            <li class="mx-4">
+                <a class="p-2 cursor-pointer hover:text-primary">
+                    Home
+                </a>
+            </li>
+            <li class="mx-4">
+                <a class="p-2 cursor-pointer hover:text-primary">
+                    About Us
+                </a>
+            </li>
+            <li class="mx-4">
+                <a class="p-2 cursor-pointer hover:text-primary">
+                    Services
+                </a>
+            </li>
+            <li class="mx-4">
+                <a class="p-2 cursor-pointer hover:text-primary">
+                    Contact Us
+                </a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <!-- about us section -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-2">
+            <div class="m-10 mt-16  md:mt-28">
+                <h3 class="text-3xl text-primary">About Us</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis tempora expedita, consectetur
+                    incidunt quas, saepe delectus vel dolor pariatur eum neque blanditiis vero distinctio magnam
+                    doloremque dolore. Delectus, quas alias?</p>
+                <div class="mt-6">
+                    <span class="text-lg">Assets Under Management</span>
+                    <h1 class="text-5xl">$20 bn</h1>
+                </div>
+            </div>
+            <figure class="m-14">
+                <img src="assets/images/about-us.jpg" class="max-w-full h-auto" alt="About Us">
+            </figure>
+        </section>
+        <!-- services section -->
+        <section>
+            <h3 class="text-5xl text-primary text-center mb-8">Our Services</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-8 mx-10 pb-8">
+                <div class="flex flex-col shadow-md rounded-md">
+                    <figure>
+                        <img src="assets/images/service-1.jpg" class="w-full h-64 object-cover rounded-t-md"
+                            alt="Service 1">
+                    </figure>
+                    <h4 class="text-3xl text-primary mb-6 mt-4 px-4">"What’s Your FIRE Number?"</h4>
+                    <div class="px-4">Imagine having the freedom to choose when to work and when to retire. Your FIRE
+                        number
+                        is the
+                        amount you need to achieve that. Have you calculated it? Do you know what it is? By reaching
+                        your
+                        FIRE number, you’re creating a future where work is optional and life is limitless. We can help
+                        you
+                        take the first steps toward knowing and achieving your FIRE number.
+                    </div>
+                    <button class="bg-blue-500 hover:bg-blue-700 
+                     text-white font-bold py-2 px-4 rounded mt-6 self-start my-6 mx-4">consult murtaza for
+                        knowledge</button>
+                </div>
+                <div class="flex flex-col shadow-md rounded-md">
+                    <figure>
+                        <img src="assets/images/service-1.jpg" class="w-full h-64 object-cover rounded-t-md"
+                            alt="Service 1">
+                    </figure>
+                    <h4 class="text-3xl text-primary mb-6 mt-4 px-4">"Are You and Your Family Secure in Terms of
+                        Healthcare Financially?"</h4>
+                    <div class="px-4">Health can be unpredictable, but you can protect yourself financially. While no
+                        one can prevent health crises, we can plan to ensure financial security for your family if they
+                        arise. Our solutions help you secure your family financially so that even in difficult times,
+                        they are cared for.
+                    </div>
+                    <button class="bg-blue-500 hover:bg-blue-700 
+                     text-white font-bold py-2 px-4 rounded mt-6 self-start my-6 mx-4">consult murtaza for
+                        knowledge</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
 </body>
+
 </html>
